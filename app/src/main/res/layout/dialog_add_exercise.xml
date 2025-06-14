@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Spinner
+        android:id="@+id/spnExercisesDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/etWeightDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso (kg)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSetsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Series"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etRepsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repeticiones"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnDialogAddExercise"
+        android:backgroundTint="@color/Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir ejercicio" />
+</LinearLayout>

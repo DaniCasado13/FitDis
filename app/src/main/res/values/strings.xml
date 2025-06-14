@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FitDis</string>
+    <string-array name="muscle_groups_array">
+        <item>Pecho</item>
+        <item>Espalda</item>
+        <item>Hombros</item>
+        <item>Biceps</item>
+        <item>Piernas</item>
+        <item>Triceps</item>
+    </string-array>
+</resources>
