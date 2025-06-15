@@ -31,7 +31,6 @@ public abstract class FitDisDatabase extends RoomDatabase {
                 if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
                                     FitDisDatabase.class, "fitdis_database")
-                            .fallbackToDestructiveMigration(true)
                             .build();
                 }
             }
